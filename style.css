@@ -1,5 +1,5 @@
 
-
+/* nav ber */
 .navber{
     display: flex;
     justify-content: space-between;
@@ -25,3 +25,113 @@
 .nav-title{
 font-size:1.25rem;
 }
+
+/* Influencer */
+.Influencer{
+    display: flex;
+    justify-content: space-between;
+   
+    margin: 50px 125px;
+    align-items: center;
+    gap: 133px;
+}
+.Influencer-title{
+    font-size: 3.25rem;
+}
+.Influencer-pra{
+    font-size: 1rem;
+    width: 505px;
+}
+.primary-btn{
+    font-size: 1rem;
+    font-weight: bold;
+   padding: 10px;
+   border: none;
+    border-radius: 41px;
+    max-width: 196px;
+    background-color: #E02C6D;
+    color: white;
+   
+}
+.cmera img{
+    width: 440px;
+    height: 414px;
+}
+
+/* shop-icon */
+
+.shop-icon{
+    display: flex;
+    justify-content: space-around;
+    margin: 70px 165px;
+}
+
+.star ul{
+    display: flex;
+    list-style: none;
+}
+
+
+/* card */
+
+
+.crd-title{
+    text-align: center;
+    font-size: 1.75rem;
+    color: rgba(58, 58, 58, 1);
+ padding-top: 100px;
+}
+.card-container{
+ display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 30px;
+      margin: 100px 197px 100px 150px;
+      
+}
+.card{
+    
+    width: 330px;
+    height: 475px;
+    /* border: 2px solid tomato; */
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+ padding: 16px 0px;
+
+}
+
+.photo{
+    align-items: center;
+ text-align: center;
+}
+.card-title{
+    font-size: 1.75rem;
+    margin-left: 20px;
+}
+.mrp{
+    font-size: 1.25rem;
+    margin-left: 20px;
+}
+.crd-par{
+    font-size: 1rem;
+    color: rgba(120, 120, 133, 1);
+    width: 195px;
+    margin-left: 20px;
+    
+    line-height: 143%;
+    letter-spacing: 1.8%;
+}
+.star ul{
+  margin-left: -20px;
+  
+}
+
+.see-more{
+    font-size: 1rem;
+font-weight: bold;
+color: #E02C6D;
+text-align: center;
+margin-right: -950px;
+margin-top: -80px;
+
+}
+
