@@ -1,10 +1,17 @@
 
+
+html, body{
+    overflow-x: hidden;
+}
+
+
 /* nav ber */
 .navber{
     display: flex;
     justify-content: space-between;
     align-items:center;
     margin: 0px 120px;
+     
 
 }
 .ber ul{
@@ -64,6 +71,7 @@ font-size:1.25rem;
     display: flex;
     justify-content: space-around;
     margin: 70px 165px;
+ 
 }
 
 .star ul{
@@ -74,18 +82,12 @@ font-size:1.25rem;
 
 /* card */
 
-
-.crd-title{
-    text-align: center;
-    font-size: 1.75rem;
-    color: rgba(58, 58, 58, 1);
- padding-top: 100px;
-}
 .card-container{
  display: grid;
       grid-template-columns: repeat(3, 1fr);
       gap: 30px;
-      margin: 100px 197px 100px 150px;
+   
+      
       
 }
 .card{
@@ -96,8 +98,18 @@ font-size:1.25rem;
   box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
   border-radius: 5px;
  padding: 16px 0px;
+margin-left: 50px;
 
 }
+
+.crd-title{
+    text-align: center;
+    font-size: 1.75rem;
+    color: rgba(58, 58, 58, 1);
+ padding-top: 100px;
+}
+
+
 
 .photo{
     align-items: center;
@@ -106,6 +118,7 @@ font-size:1.25rem;
 .card-title{
     font-size: 1.75rem;
     margin-left: 20px;
+    
 }
 .mrp{
     font-size: 1.25rem;
@@ -134,4 +147,80 @@ margin-right: -950px;
 margin-top: -80px;
 
 }
+
+/* product-place */
+
+.product-place{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 200px 165px;
+    gap: 95px;
+       
+}
+
+
+.desk{
+    width: 610px;
+    height: 225px;
+    
+}
+
+.desk h2{
+    font-size: 2.37rem;
+    font-weight: bold;
+}
+
+.desk p{
+    font-size: 1rem;
+    
+    color: #6C6C6C;
+}
+
+.desk button{
+    font-weight: bold;
+    color: white;
+    background-color: #E02C6D;
+    border: none;
+    border-radius: 5px;
+
+    width: 155px;
+    height: 44px;
+} 
+/* footer */
+footer{
+background-color:#0A0826;
+
+}
+.footer-item{
+
+  height: 240px;
+    color: white;
+    text-align: center;
+    align-items: center;
+   padding-top: 50px;
+}
+
+.footer-item h3{
+    font-size: 1.50rem;
+    font-weight: bold;
+}
+.copy{
+    font-size: 1rem;
+    color: rgba(217, 219, 225, 1);
+}
+.reserved{
+    font-size: 1rem;
+    color: rgba(217, 219, 225, 1);
+}
+
+.footer-icon{
+    padding-top: 17px;
+  
+}
+
+.footer-icon i{
+    padding-right: 16px;
+}
+
 
