@@ -25,12 +25,37 @@ html, body{
 .ber ul a{
     text-decoration: none;
     color: black;
-  
-  
+
 }
 
 .nav-title{
 font-size:1.25rem;
+}
+
+/* responsive navber */
+@media screen and (max-width:576px) {
+    
+    .nav-title{
+        font-size: 1.25rem;
+    }
+    
+    .navber{
+        
+        flex-direction: column;
+        margin: 0px auto;
+     
+    }
+
+    .ber ul{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 100%;
+    }
+  .ber{
+margin-right: 50px;
+  }
+
+
 }
 
 /* Influencer */
@@ -64,6 +89,38 @@ font-size:1.25rem;
     width: 440px;
     height: 414px;
 }
+/* responsiv .Influencer */
+@media screen and (max-width:576px) {
+    .Influencer{
+        flex-direction: column-reverse;
+        gap: 0px;
+    }
+
+    .cmera img{
+        width: 255px;
+        height: 255px;
+    }
+    .Influencer-title{
+        width: 404px;
+        font-size: 32px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .Influencer-pra{
+        font-size: 1rem;
+        width: 321px;
+        height: 65px;
+        text-align: center;
+        margin-left: 33px;
+    }
+    .Influencer-contain{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+
 
 /* shop-icon */
 
@@ -71,7 +128,8 @@ font-size:1.25rem;
     display: flex;
     justify-content: space-around;
     margin: 70px 165px;
- 
+    box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.1);
+
 }
 
 .star ul{
@@ -79,6 +137,27 @@ font-size:1.25rem;
     list-style: none;
 }
 
+/* responsive shop icon */
+@media screen and (max-width:576px) {
+    .shop-icon{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 15px;
+        box-shadow: none;
+        
+       
+    
+    }
+    .shop-icon img{
+        width: 70px;
+       
+
+    }
+   
+   
+}
 
 /* card */
 
@@ -143,11 +222,33 @@ margin-left: 50px;
 font-weight: bold;
 color: #E02C6D;
 text-align: center;
-margin-right: -950px;
-margin-top: -80px;
+margin-left: 70em;
+margin-top: 30px;
 
 }
 
+/* responsive card */
+@media screen and (max-width:576px) {
+    .crd-title{
+   margin-top: 50px;
+   padding-top: 0px;
+}
+.card-container{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-right: 50px;
+}
+}
+
+@media screen and (max-width: 576px) {
+     .see-more{
+   display: inline;
+ margin-left: 70%;
+
+ }
+}
 /* product-place */
 
 .product-place{
@@ -186,7 +287,43 @@ margin-top: -80px;
 
     width: 155px;
     height: 44px;
+
 } 
+
+/* product responsive */
+@media screen and (max-width:576px) {
+    .product-place{
+      
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 0px;
+        margin-top: 0px;
+    }
+
+    .desk h2{
+        font-size: 24px;
+      
+    }
+    .desk p{
+        font-size: 16px;
+        height: 90px;
+    }
+    .desk button{
+        align-items: center;
+    }
+    .place-photo{
+        border: none;
+        border-radius: 20px;
+        width: 300px;
+        height: 188px;
+        padding: 30px;
+       
+    }
+}
+
+
 /* footer */
 footer{
 background-color:#0A0826;
@@ -221,6 +358,17 @@ background-color:#0A0826;
 
 .footer-icon i{
     padding-right: 16px;
+}
+
+/* foooter responsive */
+
+@media screen and (max-width: 576px) {
+    footer{
+        width: 100%;
+        height: 50%;
+        margin-top: -200px;
+       
+    }
 }
 
 
